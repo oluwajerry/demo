@@ -1,73 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+        <title>test</title>
+        <meta charset="UTF-8">
+        <meta viewport="width=device-width, initial scale=1.0">
         <style>
-            h1{
-                padding: 20px;
-                margin: 100px;
-                border: 55px;
+                    
+             #yr{
+                list-style-type: none;
+                margin: 0px;
+               padding: 0px;
+               overflow: hidden;
+               background-color:red;
+               text-align: center;
+           }
+           #jk, #st{
+                float:left;
             }
-        </style>    
-        
-        <title>Page Title Jeremiah</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-
-<p>This is a paragraph.
-    i am learning html 
-    i will tryh my possible best to devout my mind to it and be serious about it
-    
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-    <head> 
-        <title> This is my first blog</title>
-                <style> 
-                         
-                        body {
-                           
-                            background-color: #0000FF;
-                            border: 200px;
-                        }
-                        
-                        h1 {
-                            margin: 4px;
-                            padding: 30px;
-                        }
-                        p {
-                            color: red;
-                            margin: 4px;
-                        }
-                        background-image: url('schoolpix.jfif');
-                </style>
-               
-    </head>
-
-    <body>
-        
-                <h1>MY FIRST BLOG</h1>
+            #jk, #st:hover{
+                color: blue;
+            }
+            #jk {
+                display: flex;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                text-decoration:none;
+                height: -20px;
+                font-family: 'Courier New', Courier, monospace;
+            }
             
-            <p>jeremiah is writing a code using HTML can you please access me sir. 
-                <em>CODING</em> is not easy at all because it require your <strong>time</strong> and constant practice
-            </br> It is also important to know that coding is <sup>fun</sup>. Try it and <sub>see</sub>for your self.
-            </p>
+            
+            body{
+                background-image: url('high school.jpg');
+                background-attachment: fixed;
+                background-size: 550px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position-x: center;
+                background-position-y: center;
+                
 
-            <P id="demo">The name of my tutor is <mark><i>Mr Damola</i></mark></P>
-            <p>
-                <a href="mailto:amosjeremiah92@gmail.com" target="_self" style="color: #FFFFFF;">CONTACT US</a>
-            </p>
-        <button type="button" onclick="myfunction()">click me!</button>
-            <p id="demo">this is a demonstrations.</p>
+            }
+            h2{
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+            }
+            #st{
+                text-align: center; 
+                overflow: hidden;
+                background-color: rgb(238, 238, 247);
+                color: black;
+                font-family: 'Courier New', Courier, monospace;
+                max-width: 20%;
+                padding: 5px;
+                text-align: left;
 
-            <script>
-                function myfunction()
-                {document.getElementsById("demo").innerHTML="hello world";}
-            </script>
+            }
+        </style> 
+    </head>
+    <body>
+        <ul id="yr">
+            <li id="jk">ADMISSION</li>
+            <li id="jk">ACADEMICS</li>
+            <li id="jk">ARTS</li>
+            <li id="jk">ATHLECTIC</li>
+            <li id="jk">STUDENT LIFE</li>
+            <li id="jk">COMMUNITY</li>
+            <li id="jk">QUICKLINKS</li>
+            <li id="jk">GIVING</li>
+        </ul>
+        <h2>.ALBUQUERQUE ACADEMY.</h2>
+        <div id="jer">
+            <ul>
+                <li id="st">HOME</li>
+                <li id="st">ALUMINI</li>
+                <li id="st">CONTACT</li>
+                <li id="st">LOGIN</li>
+            </ul>
+            </div>
+        <form>
+            <br><input type="search" name="search" value="search" placeholder="search here">
+        </form>
+        <p style="color: white; background-color: gray; text-align: end;">ACADEMY NEWS</b>ZACH AUSTER '22 WINS ACADEMY SPELLING BEE</p>
     </body>
-
- </html>
+</html>
